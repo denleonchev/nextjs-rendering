@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export default function About() {
-    const [text, setText] = useState('');
+    const [text, setText] = useState('test');
     console.log('about server component')
     return (
         <>
